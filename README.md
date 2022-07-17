@@ -39,5 +39,5 @@ function getRelativePath(startElement, stopElement, max_dept = null) {
 ```
 
 ## Demo Exemple 
-!(Alt demo)[./demo.gif]
+![Alt demo](./demo.gif)
 
