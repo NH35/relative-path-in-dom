@@ -2,7 +2,7 @@
 JS tool function for userscript developpement to easily get the relative path (aka .parentNode.childNodes.item(i) ) between 2 nodes.
 
 ## Code
-```
+```js
 // Function designed to be a tool during the development of a JS userscript to get the relative path from an DOM element to another element.
 // return a String made of ".parentNode" and ".childNodes.item(i)" of the shortest path between the two nodes.
 // NH35 - 17/07/2022
