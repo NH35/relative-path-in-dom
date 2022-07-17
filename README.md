@@ -1,5 +1,10 @@
 # Function to get relative path between 2 nodes elements in the DOM
-JS tool function for userscript developpement to easily get the relative path (aka .parentNode.childNodes.item(i) ) between 2 nodes.
+Provide a String made of ".parentNode" and ".childNodes.item(i)" of the shortest path between the two nodes
+
+## What the purpose of this ?
+It's usefull to dev quickly when you have same div structure located at different places in the dom. 
+Like for example : the reddit comment section. You get every div comment with a querySelectorAll and want to downvote all of them. Problem : the comment section is recursive so every comments are not clean ul. But you know the downvote button keep the same relative position for each comment. So you use this function to know the relative path and then make a for loop to downvote all of them.
+Yes, you can still inspect the dom manually to know the relative path but it's just faster.
 
 ## Code
 ```js
