@@ -1,4 +1,4 @@
-# relative-path-in-dom
+# Function to get relative path between 2 nodes elements in the DOM
 JS tool function for userscript developpement to easily get the relative path (aka .parentNode.childNodes.item(i) ) between 2 nodes.
 
 ## Code
