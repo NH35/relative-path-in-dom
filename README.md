@@ -38,6 +38,6 @@ function getRelativePath(startElement, stopElement, max_dept = null) {
 }
 ```
 
-## Demo Exemple 
+## Demo Example 
 ![Alt demo](./demo.gif)
 
